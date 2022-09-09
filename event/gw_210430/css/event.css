@@ -1,0 +1,336 @@
+@charset "utf-8";
+@import url("https://use.typekit.net/qkn1rvx.css");
+/* CSS Document */
+
+
+
+ul, li{	list-style: none; padding: 0;}
+a{text-decoration: none;color: #2d2d2d; display: block;}
+
+
+
+.event{
+	width:1000px; 
+	text-align:center; 
+	margin: 0 auto;
+	font-family: 'exo-soft', 'Kosugi', "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", 'Meiryo', sans-serif;
+}
+
+#event_title{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.title{
+	font-family: 'exo-soft', 'Kosugi', "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", 'Meiryo', sans-serif; 
+	font-size: 38px;
+    color: #363636;
+    line-height: 40px;
+    margin: 0 0 20px 0;
+    font-weight: 500;
+}
+.title:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 4px;
+	background-color: #363636;
+	margin: 25px auto 0;
+}
+
+
+#coupon{
+	padding: 100px 0 50px;
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+	background-color: #fffced;
+}
+.cp_img{
+	float: left;
+	width: 70%;
+	margin: 50px 15%;
+	
+}
+
+#coupon span{
+	float: left;
+	width: 44%;
+	margin: 0 3%;
+}
+#coupon img{
+	width: 100%;
+	
+}
+
+
+.cp_info{
+	width: 100%;
+	float: left;
+	margin: 30px auto 50px;
+	text-align: center;
+}
+.cp_info_sb{
+	float: left;
+	margin-left: 190px;
+	margin-top: 5px;
+}
+#coupon .cp_info_sb img{
+	width: 80%;
+	
+}
+.cp_info_tx{
+	float: left;
+	text-align: left;
+	margin-left: 15px;
+	
+}
+.cp_info_tx p{
+	font-size: 9pt;
+	line-height: 17pt;
+	color: #afafaf;
+	letter-spacing: 0.5pt;
+}
+
+
+
+
+
+.item_title{
+	float: left;
+    font-size: 12pt;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+	line-height: 20pt;
+	letter-spacing: 0.2pt;
+	font-weight: 300;
+}
+
+
+.item_price{
+	float: left;
+	width: 100%;
+	text-align: left;
+	color: #d4533e;
+	font-size: 16pt;
+	letter-spacing: 0.3pt;
+	margin: 0 auto;
+	line-height: 23pt;
+	font-weight: 400;
+	
+}
+
+.item_price font{
+	color: #fff;
+	margin-right: 5px;
+	font-size: 9pt;
+	padding: 3px 6px;
+	background-color: #d4533e;
+	vertical-align: bottom;
+}
+
+
+
+
+
+
+#timesale{
+	width: 1000px; 
+	margin: 100px auto 0;
+	float: left;
+}
+#timesale ul{
+	float: left;
+    padding: 0;
+    width: 96%;
+    margin: 50px 2% 0;
+	
+}
+
+
+#timesale li{
+	width: 220px;
+    margin: auto 10px;
+    float: left;
+	text-align: left;
+	
+}
+
+#timesale img{
+ 	width: 100%;
+}
+
+
+
+
+.view_more_btn_c {
+    width: 40%;
+    margin: 80px 30%;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 30pt;
+    float: left;
+	word-spacing: 1px;
+}
+.view_more_btn_c a {
+    display: block;
+	background-color: #d4533e;
+    color: #FFF;
+}
+.view_more_btn_c a:hover{
+	background-color: #c7c75f;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	}
+
+
+
+
+
+
+
+
+#sp_price{
+	width: 1000px; 
+	margin: 100px auto;
+	float: left;
+}
+#sp_price ul{
+	float: left;
+    padding: 0;
+    width: 100%;
+    margin: 50px 0 0;
+	
+}
+
+#sp_price li{
+	width: 230px;
+    margin: auto 10px;
+    float: left;
+	text-align: left;
+	
+}
+#sp_price img{
+ 	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.topics{
+	width: 1000px;
+    margin: 0 auto 30px;
+    float: left;
+    BACKGROUND-COLOR: #F1F1F1;
+    PADDING: 100PX 0;
+	
+}
+
+.topics .topics_img{
+	float: left;
+    width: 90%;
+    margin: 50px 5%;
+    padding: 0;
+}
+
+.topics_img ul{
+	float: left;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+	
+}
+
+
+.topics_img li{
+    float: left;
+    width: 48%;
+    margin: 0 1% 10px;
+}
+.topics_img img{
+	width: 100%;
+}
+
+
+
+
+.info_event{
+	width: 100%;
+	float: left;
+	
+	
+}
+
+.info_event p{
+	text-align: left;
+	font-size: 9pt;
+	margin: 50px 0 30px;
+    line-height: 17pt;
+    float: left;
+	letter-spacing: 1px;
+	color: #000;
+}
+.info_event font{
+	line-height: 20pt;
+	font-size: 12pt;
+	font-weight: 500;
+	font-family:  'Roboto', sans-serif;
+}
+
+
+
+/*
+Back to top button 
+*/
+#back-top2 {
+	position: fixed;
+	bottom: 100px;
+	right: 30px;
+}
+#back-top2 a {
+	width: 56px;
+	display: block;
+	text-align: center;
+	font: 24px/100% 'Exo 2', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	/* background color transition */
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	transition: 0.3s;
+	vertical-align:middle;
+}
+#back-top2 a:hover {
+	color: #fff;
+}
+/* arrow icon (span tag) */
+#back-top2 span {
+	width: 56px;
+	height:42px;
+	display: block;
+	margin-bottom: 10px;
+	background-color: #d2a347 ;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	transition: 0.3s;
+	border-radius:30px;
+	padding-top:14px;
+
+}
+#back-top2 a:hover span{
+	background-color: rgba(210,163,71,0.9);
+}
+
