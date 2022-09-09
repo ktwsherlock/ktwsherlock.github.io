@@ -1,0 +1,643 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://use.typekit.net/huh0cqi.css");
+
+ul{padding: 0}
+a{display: block;}
+
+
+
+/*header bar*/
+
+
+header{
+	background-color: rgba(255,255,255,0.85);
+}
+
+
+
+
+/*event page*/
+
+
+
+
+.main{
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+	font-family: 'Roboto', 'Kosugi', "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", 'Meiryo', sans-serif;
+	
+}
+.header_top{
+	float: left;
+	height: auto;
+	min-height: 226.5px;
+	width: 100%;
+}
+
+
+img{
+	width: 100%;
+}
+
+#event_title{
+	width: 100%;
+	float: left;
+	margin-top: 45px;
+}
+#event_title img{
+	float: left;
+	width: 100%;
+}
+
+.navi01{
+	
+	width: 100%;
+	text-align: center;
+	background-color:#967051;
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	left: 0;
+}
+
+
+
+.navi01 ul{
+	display: flex;
+    width: 100%;
+    margin: 3px auto;
+    padding: 0;
+}
+.navi01 li{
+    width: 20%;
+    margin: auto 0;
+}
+.navi01 img{
+	width: 50%;
+}
+.navi01 p{
+	color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+	font-size: 7pt;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*.nav-down{
+	bottom: -60px;
+	transition: .2s;
+}*/
+
+
+
+
+.title{
+	float: left;
+	width: 100%;
+	font-size: 24pt;
+    color: #353535;
+    line-height: 22pt;
+    margin: 0 0 25px 0;
+    font-weight: 600;
+	text-align: center;
+	font-family: 'co-headline', sans-serif;
+	letter-spacing: 0.3pt;
+}
+.title:after{
+	content: "";
+	display: block;
+	width: 76px; 
+	border-bottom: 4px dotted #ababab;
+	margin: 10px auto;
+	
+}
+
+
+
+
+#coupon{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	background-color: #efebe8;
+	padding:50px 0; 
+	
+}
+
+.cp_img{
+	float: left;
+	width: 94%;
+	margin: 10px 3%;
+	
+}
+
+#coupon span{
+	float: left;
+	width: 46%;
+	margin: auto 2%;
+}
+
+.cp_info{
+	width: 100%;
+	float: left;
+	margin: 20px auto;
+	text-align: center;
+}
+.cp_info_sb{
+	width: 100%;
+	
+}
+.cp_info_sb img{
+	width: 15%;
+	
+}
+.cp_info_tx{
+	text-align: left;
+	width: 90%;
+	margin: 10px 5%;
+}
+.cp_info_tx p{
+	font-size: 7pt;
+	line-height: 12pt;
+	color: #afafaf;
+	letter-spacing: 1px;
+}
+.cp_info_tx p font{
+	line-height: 20px;
+}
+
+
+#sp{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	background-color: #efebe8;
+	padding:50px 0; 
+}
+
+#sp span{
+	width: 94%;
+	float: left;
+	margin: auto 3%;	
+}
+
+#sp img{
+	width: 100%;
+}
+
+
+#sp_sale{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	background-color: #efebe8;
+	padding:50px 0; 
+}
+
+#sp_sale span{
+	width: 94%;
+	float: left;
+	margin: 12px 3%;	
+}
+
+#sp_sale img{
+	width: 100%;
+}
+
+
+
+
+
+.item_title{
+	float: left;
+    font-size: 10pt;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+	line-height: 18pt;
+	letter-spacing: 0.2pt;
+	font-weight: 500;
+}
+
+
+.item_price{
+	float: left;
+	width: 100%;
+	text-align: left;
+	color: #d63434;
+	font-size: 14pt;
+	letter-spacing: 0.3pt;
+	margin: 0 auto;
+	line-height: 20pt;
+	font-weight: 600;
+	
+}
+
+.item_price font{
+	color: #fff;
+	margin-right: 5px;
+	font-size: 8pt;
+	padding: 3px 6px;
+	background-color: #d63434;
+	vertical-align: bottom;
+}
+
+
+
+
+
+
+
+.time_day{
+    font-size: 13pt;
+	font-family: 'co-headline', sans-serif;
+	color: #353535;
+	line-height: 22pt;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 0.3pt;
+}
+
+
+
+
+#time{
+	padding: 50px 0 0;
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	background-color: #efebe8;
+}
+
+.time_pro{
+	width: 100%;
+	float: left;
+}
+
+.time_pro .time_pro_item{
+	float: left;
+	width: 90%;
+	margin: 0 5%;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+}
+.time_pro .time_img{
+	width: 92%;
+    float: left;
+    margin: 20px 4%;
+}
+
+
+
+.time_pro .time_img01{
+	width: 96%;
+	float: left;
+	margin: 0 2%;
+}
+
+
+.time_pro .time_img02{
+	width: 46%;
+	float: left;
+	margin: 10px 2% 15px;
+	
+}
+
+.time_img02 div{
+	position: relative;
+	padding-top: 100%;
+	overflow: hidden;
+}
+
+#time li{
+	width: 46%;
+	float: left;
+	margin: 0 2% 15px;
+}
+
+
+
+
+.time_item_title{
+	float: left;
+    font-size: 10pt;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+	line-height: 15pt;
+	font-weight: 500;
+}
+
+.time_item_price{
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #d63434;
+	font-size: 14pt;
+	letter-spacing: 0.3pt;
+	margin: 0 auto 25px;
+	line-height: 30pt;
+	font-weight: 600;
+	
+}
+
+.time_item_price font{
+	color: #fff;
+	margin-right: 10px;
+	font-size: 8pt;
+	padding: 3px 6px;
+	background-color: #d63434;
+	vertical-align: bottom;
+}
+
+
+
+
+
+#point{
+	padding: 50px 0 0;
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	background-color: #efebe8;
+}
+#point ul{
+	width: 96%;
+	float: left;
+	margin: 0 2% 25px;
+}
+
+#point li{
+	width: 48%;
+	float: left;
+	margin: auto 1%;
+}
+
+
+
+
+
+
+
+
+#sp_price{
+	padding: 50px 0 0;
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	background-color: #efebe8;
+}
+#sp_price ul{
+	width: 96%;
+	float: left;
+	margin: 0 2% 25px;
+}
+
+#sp_price li{
+	width: 48%;
+	float: left;
+	margin: auto 1% 30px;
+}
+
+
+
+
+
+
+
+
+ 
+
+#cosme{
+	width: 100%; 
+	padding: 50px 0 30px;
+	margin: 0 auto;
+	float: left;
+	background-color: #efebe8;
+}
+.cosme_pro{
+	width: 96%;
+	margin-left: 2%;
+}
+
+.cosme_pro .cosme_item{
+	width: 100%;
+	float: left;
+}
+
+
+.cosme_pro img{
+	width: 100%;
+	margin: 5px 0 10px;
+}
+
+
+.cosme_item_title{
+	float: left;
+    font-size: 10pt;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+	line-height: 15pt;
+	font-weight: 500;
+}
+
+.cosme_item_price{
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #d63434;
+	font-size: 14pt;
+	letter-spacing: 0.3pt;
+	margin: 0 auto 25px;
+	line-height: 30pt;
+	font-weight: 600;
+	
+}
+
+.cosme_item_price font{
+	color: #fff;
+	margin-right: 10px;
+	font-size: 8pt;
+	padding: 3px 6px;
+	background-color: #d63434;
+	vertical-align: bottom;
+}
+
+
+
+
+#cosme ul{
+	width: 96%;
+	float: left;
+	margin: 0 2% 25px;
+}
+
+
+#cosme li{
+	width: 48%;
+	float: left;
+	margin: 0 1% 30px;
+}
+#cosme img{
+ 	width: 100%;
+	
+}
+#cosme li img{
+ 	box-sizing: border-box;
+	
+}
+
+.view_more_btn_c {
+    width: 80%;
+    margin: 0 10% 30px;
+    border: 1px solid #3a3a3a;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 34px;
+    float: left;
+    color: #3a3a3a;
+    padding: 4px 0;
+	font-weight: 500;
+}
+
+
+
+
+
+
+#after_time{
+	float: left;
+	width: 100%;
+	padding: 50px 0 0; 
+	margin: 0 auto 25px;
+}
+#after_time ul{
+	width: 96%;
+	float: left;
+	margin: 0 2% 10px;
+	
+}
+
+#after_time li{
+	width: 23%;
+	float: left;
+	margin: 10px 1% ;
+}
+
+#after_time li div{
+	position: relative;
+	overflow: hidden;
+	padding-top: 200%;
+}
+
+
+
+
+
+#coupon_thanks{
+	width: 100%;
+	padding-top: 50px;
+	float: left;
+}
+#coupon_thanks img{
+ 	width: 100%;
+}
+
+
+
+#coupon_thanks .thcp_info{
+	float: left;
+	color: #afafaf;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-size: 10pt;
+    padding: 15px 5%;
+    text-align: left;
+}
+
+
+
+.thanks_cp_img{
+	float: left;
+    width: 52%;
+    margin: 0 24%;
+}
+
+#coupon_thanks .cp_info_sb img{
+	width: 15%;
+}
+
+
+
+.info_event{
+	width: 100%;
+	float: left;
+	
+	
+}
+
+.info_event p{
+	text-align: left;
+	font-size: 7pt;
+	margin: 10px 5% 30px;
+    line-height: 12pt;
+    float: left;
+	letter-spacing: 1px;
+	color: #000;
+}
+.info_event font{
+	line-height: 30px;
+	font-size: 14pt;
+	font-weight: 500;
+}
+
+
+
+
+.sale{
+	width: 100%;
+	margin: 50px auto;
+    float: left;
+}
+
+.sale div{
+	width: 96%;
+	margin: 10px auto 0px;
+}
+
+.sale img{
+	width: 100%;
+}
+
+
+footer{
+	width: 100%;
+    float: left;
+	padding-bottom: 55px;
+	
+}
+
+
+.footer_info {
+    width: 100%;
+    float: left;
+    background: #656565;
+    color: #FFF;
+    font-family: 'Exo 2', "ヒラギノ角ゴ ProN W3";
+}
+
+.footer_info_btn p {
+    text-align: center;
+    font-family: 'Exo 2', "ヒラギノ角ゴ ProN W3";
+    font-size: 10px;
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+}
