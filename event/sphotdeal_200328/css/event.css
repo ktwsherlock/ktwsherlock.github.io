@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+
+html{scroll-behavior: smooth;}
+
+ul, li{	list-style: none; padding: 0;}
+a{text-decoration: none;color: #2d2d2d; display: block;}
+
+
+.event{
+	width:1000px; 
+	text-align:center; 
+	margin: 0 auto;
+	font-family: 'Exo 2', 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Meiryo', sans-serif;
+}
+#event_title{
+	width: 100%;
+	float: left;
+}
+
+.navi01{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background-color: #d9f6eb;
+}
+.navi01 ul{
+	width: 100%;
+	margin: 15px auto;
+	text-align: center;
+	padding: 0;
+}
+.navi01 li{
+	display: inline;
+	margin-left: 25px;
+	line-height: 20px;
+	color: #f85c74;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+.navi01 font{
+	color: #f85c74;
+	letter-spacing: 0.5px;
+	
+}
+
+.fixed {
+	background-color: #f9ebce;
+	background-color: rgba(217,246,235,0.9);
+	text-align: center;
+    position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+}
+
+#coupon{
+	padding-top: 100px;
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+}
+#coupon img{
+	width: 85%;
+}
+.cp_info{
+	float: left;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+
+
+#time{
+	width: 1000px; 
+	padding-top: 100px;
+	margin: 0 auto;
+	float: left;
+}
+.time_pro{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.time_pro img{
+	width: 100%;
+	margin-top: 15px;
+}
+#time ul{
+	float: left;
+	padding: 0;
+	margin-top: 20px;
+}
+#time li{
+	width:400px; 
+	margin: 10px 50px; 
+	float: left; 
+}
+#time img{
+ 	width: 100%;
+}
+
+
+
+
+
+.btn{
+	width: 60%;
+	margin: 0 auto;
+}
+#sp_price{
+	width: 1000px; 
+	padding-top: 0;
+	margin: 0 auto;
+	float: left;
+}
+#sp_price ul{
+	float: left;
+	padding: 0;
+	margin-top: 50px;
+}
+#sp_price li{
+	width:230px; 
+	margin: 0 10px; 
+	float: left; 
+}
+#sp_price img{
+ 	width: 100%;
+}
+
+
+
+
+
+
+#cosme{
+	width: 1000px; 
+	padding-top: 100px;
+	margin: 0 auto;
+	float: left;
+}
+.cosme_pro{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.cosme_pro img{
+	width: 100%;
+	margin-top: 15px;
+}
+#cosme ul{
+	float: left;
+	padding: 0;
+	margin-top: 20px;
+}
+#cosme li{
+	width:400px; 
+	margin: 10px 50px; 
+	float: left; 
+}
+#cosme img{
+ 	width: 100%;
+	
+}
+#cosme li img{
+ 	box-sizing: border-box;
+	border: thin solid #e7e7e7;
+}
+.view_more_btn_c {
+    width: 400px;
+    margin: 80px 300px 150px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Exo 2', sans-serif;
+    line-height: 40px;
+    float: left;
+    color: #3a3a3a;
+}
+.view_more_btn_c a {
+    display: block;
+    border: 1px solid #CCC;
+}
+.view_more_btn_c a:hover{
+	background-color: #3a3a3a;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	color:#fff;
+	border:1px solid #3a3a3a;
+	}
+
+
+
+
+
+
+
+
+.item_title_txt_m{
+	letter-spacing: 1px;
+	text-align: left;
+    font-size: 12px;
+    font-family: 'Exo 2', 'Meiryo', sans-serif;
+    color: #333;
+    line-height: 14px;
+    margin: 10px auto 0 auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.item_sale_txt{
+	
+	width:80px;
+	background-color:#ff6868;
+	color:white;
+	font-size:12px;
+	padding:3px;
+	margin:10px auto 0 0;
+}
+.item_price_txt_m{
+	
+	margin: 8px auto 5px auto;
+    font-size: 14px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: left;
+}
+
+.item_price_txt_m font{
+	
+	font-size:18px;
+	color: #cc292f;
+	font-weight: 600; 
+	margin-left: 5px;
+}
+
+
+
+
+#coupon_thanks{
+	padding-top: 100px;
+	float: left;
+	
+}
+
+
+
+
+
+.topics{
+	width: 1000px;
+	margin: 30px auto;
+	float: left;
+	
+}
+
+
+.title_topic{
+	font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    color: #3a3a3a;
+    line-height: 50px;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    border-bottom: 1px solid #CCC;
+}
+
+.topics li{
+	
+	width: 450px;
+    margin: 10px 20px 0 0;
+    float: left;
+}
+.topics img{
+	width: 100%;
+}
+
+

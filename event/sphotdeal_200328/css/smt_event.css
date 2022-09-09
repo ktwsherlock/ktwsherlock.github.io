@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+html{scroll-behavior: smooth;}
+ul{padding: 0}
+a{display: block;}
+
+/*header bar*/
+
+
+header{
+	background-color: rgba(255,255,255,0.85);
+}
+
+
+/*event page*/
+
+.main{
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+	font-family: 'Exo 2', 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Meiryo', sans-serif;
+	
+}
+
+.header_top{
+	float: left;
+	height: auto;
+	min-height: 226.5px;
+	width: 100%;
+}
+
+
+img{
+	width: 100%;
+}
+
+.event_title{
+	width: 100%;
+	float: left;
+	margin-top: 46px;
+}
+.event_title img{
+	float: left;
+}
+
+.navi01{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	background-color: #d9f6eb;
+	padding: 5px 0;
+}
+.fixed {
+	
+    position: fixed;
+	z-index: 0.5;
+	top: 46px;
+}
+
+.navi01 ul{
+	display: flex;
+	margin: 7px auto;
+	padding: 0;
+}
+.navi01 li{
+	display: flex;
+    margin-left: 25px;
+    line-height: 15px;
+    color: #f85c74;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.navi01 font{
+	color: #f85c74;
+	letter-spacing: -0.3px;
+	word-spacing: -0.5px;
+}
+
+
+
+
+
+
+
+
+#coupon{
+	float: left;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.co_info{
+	margin-top: 20px;
+}
+
+#time{
+	padding-top: 80px;
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+
+.time_pro{
+	width: 100%;
+}
+.time_pro img{
+	width: 100%;
+	margin-top: 5px;
+}
+
+
+#time li{
+	width: 46%;
+	float: left;
+	margin: 15px 2% 20px 2%;
+}
+
+
+
+#sp_price{
+	padding-top: 0;
+	width: 100%;
+	float: left;
+	margin: 0 auto 50px;
+}
+#sp_price li{
+	width: 46%;
+	float: left;
+	margin: 15px 2% 20px 2%;
+}
+
+
+
+
+#cosme{
+	width: 100%; 
+	padding-top: 30px;
+	margin: 0 auto;
+	float: left;
+}
+.cosme_pro{
+	width: 100%;
+	
+}
+.cosme_pro img{
+	width: 100%;
+	margin-top: 5px;
+}
+
+#cosme li{
+	width: 46%;
+	float: left;
+	margin: 15px 2% 20px 2%;
+}
+#cosme img{
+ 	width: 100%;
+	
+}
+#cosme li img{
+ 	box-sizing: border-box;
+	
+}
+
+.item_title_txt_m{
+	letter-spacing: 1px;
+	text-align: left;
+    font-size: 12px;
+    font-family: 'Exo 2', 'Meiryo', sans-serif;
+    color: #333;
+    line-height: 14px;
+    margin: 7px auto 0 auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.item_sale_txt{
+	width:70px;
+	background-color:#fd6967;
+	color:white;
+	font-size:11px;
+	padding:3px;
+	margin:7px auto 0 0;
+}
+
+
+.item_price_txt_m{
+	
+	margin: 8px auto 5px auto;
+    font-size: 14px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: left;
+}
+
+.item_price_txt_m font{
+	
+	font-size:18px;
+	color: #fd6967;
+	font-weight: 600; 
+	margin-left: 5px;
+}
+
+
+
+
+
+
+.info_event{
+	width: 100%;
+	float: left;
+	background-color: #2D2D2D;
+	
+}
+
+.info_event p{
+	text-align: left;
+	font-size: 7pt;
+	margin: 20px 2% 20px;
+    line-height: 12pt;
+    float: left;
+	letter-spacing: 0.3pt;
+	color: #fff;
+}
+.info_event font{
+	line-height: 30px;
+	font-size: 14pt;
+	font-weight: 500;
+}
+
+
+
+
+
+
+footer{
+	width: 100%;
+    float: left;
+	padding-bottom: 55px;
+	
+}
+
+
+.footer_info {
+    width: 100%;
+    float: left;
+    background: #656565;
+    color: #FFF;
+    font-family: 'Exo 2', "ヒラギノ角ゴ ProN W3";
+}
+
+.footer_info_btn p {
+    text-align: center;
+    font-family: 'Exo 2', "ヒラギノ角ゴ ProN W3";
+    font-size: 10px;
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+}
